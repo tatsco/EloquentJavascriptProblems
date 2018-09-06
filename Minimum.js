@@ -13,9 +13,10 @@ console.log(min(0, -10));
 */
 
 function minimum (firstNum, secondNum){
-    if (firstNum < secondNum) {
-        return firstNum;
-    } else {
-        return secondNum;
-    }
+  if (firstNum < secondNum) {
+    return firstNum;
+  } else {
+    return secondNum;
+  }
 }
+  
