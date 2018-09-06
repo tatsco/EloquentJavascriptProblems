@@ -11,6 +11,7 @@ Write a loop that makes seven calls to console.log to output the following trian
 */
 
 function triangleLoop (num) {
+  num = 7;
   let amperStr = '';
   for (let counter = 0; counter < num; counter++) {
     amperStr += "#";
@@ -18,5 +19,5 @@ function triangleLoop (num) {
   }
 }
 
-triangleLoop(7)
+triangleLoop()
 
